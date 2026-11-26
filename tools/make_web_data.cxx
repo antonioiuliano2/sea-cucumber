@@ -344,7 +344,7 @@ int main(int argc, char* argv[]) {
         // Truth decay vertex: first MC particle that has a mother.
         const auto& mc = source.mcParticles();
         for (const auto& p : mc) {
-            if (p.motherId == -1) {
+            if (p.mother_id == -1) {
                 ej << ",\"vertex\":{\"x\":" << p.vertex[0] << ",\"y\":" << p.vertex[1]
                    << ",\"z\":" << p.vertex[2] << "}";
                 break;
