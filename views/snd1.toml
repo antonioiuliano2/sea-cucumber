@@ -201,12 +201,12 @@ match = "veto"
 color = "#081B3C"
 transparency = 40
 [[geometry.style]]
-match = "hcal"
+match = "Fe"
 color = "#b70c00"
 transparency = 40
 [[geometry.style]]
-match = "hcal"
-color = "#b70c00"
+match = "steel"
+color = "#585454"
 transparency = 40
 [[geometry.style]]
 match = "/target/W"
